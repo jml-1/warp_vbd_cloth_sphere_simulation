@@ -1,3 +1,19 @@
+'''
+在pdm环境下的运行命令
+布料自然下垂案例，运行命令：pdm run cloth
+布料与小球接触（双向耦合）案例，运行命令：pdm run cloth_contact
+
+结果查看方式：
+1：布料自然下垂案例
+结果存放在：vbd_cloth_output_without_contact 文件夹中
+将文件： cloth.pvd 直接托入paraview 软件中点击时间运行按钮即可显示效果 
+
+2：布料与小球接触（双向耦合）案例 
+结果存放在：vbd_cloth_output_with_contact 文件夹中
+将文件： scene.pvd 直接托入paraview 软件中点击时间运行按钮即可显示效果 
+
+'''
+
 # VBD Cloth Simulation
 
 This is a NVIDIA Warp GPU cloth simulation demo. The top-left and top-right
@@ -78,18 +94,4 @@ Useful sphere/contact parameters:
 ```
 
 
-'''
-在pdm环境下的运行命令
-布料自然下垂案例，运行命令：pdm run cloth
-布料与小球接触（双向耦合）案例，运行命令：pdm run cloth_contact
 
-结果查看方式：
-1：布料自然下垂案例
-结果存放在：vbd_cloth_output_without_contact 文件夹中
-将文件： cloth.pvd 直接托入paraview 软件中点击时间运行按钮即可显示效果 
-
-2：布料与小球接触（双向耦合）案例 
-结果存放在：vbd_cloth_output_with_contact 文件夹中
-将文件： scene.pvd 直接托入paraview 软件中点击时间运行按钮即可显示效果 
-
-'''
