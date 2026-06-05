@@ -1,0 +1,1 @@
+python .\warp_vbd_cloth.py --device cuda:0 --frames 240 --substeps 4 --vbd-iters 40 --contact-iters 8 --stretch-stiffness 2500 --shear-stiffness 900 --bend-stiffness 25 --damping 0.985 --sphere-radius 0.35 --sphere-position 0.0 -1.35 0.0 --sphere-mass 8.0 --save-every 1 --out-dir output --no-obj

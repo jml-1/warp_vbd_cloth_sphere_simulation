@@ -1,0 +1,13 @@
+.venv/
+.pdm-python
+__pycache__/
+*.py[cod]
+
+# Keep generated ParaView output as compressed archives in the repo.
+vbd_cloth_output_with_contact/
+vbd_cloth_output_without_contact/
+
+# Local editor/system noise.
+.vscode/
+.DS_Store
+Thumbs.db
